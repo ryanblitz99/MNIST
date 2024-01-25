@@ -76,7 +76,6 @@ def create_model():
   ### START CODE HERE
 
   # Define the model
-  # Use no more than 2 Conv2D and 2 MaxPooling2D
   model = tf.keras.models.Sequential([
     # Note the input shape is the desired size of the image 28x28 with 3 bytes color
     # This is the first convolution
