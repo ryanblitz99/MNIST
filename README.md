@@ -88,6 +88,7 @@ def create_model():
     tf.keras.layers.Flatten(),
     # 512 neuron hidden layer
     tf.keras.layers.Dense(512, activation='relu'),
+    #softmax because there are 26 letters in the alphabet
     tf.keras.layers.Dense(26, activation='softmax')
 ])
 
